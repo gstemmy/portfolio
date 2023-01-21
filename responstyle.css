@@ -1,0 +1,329 @@
+
+
+@media(max-width: 1115px){
+    header .brand-1 h2{
+        font-size: 110px;
+        line-height: 110px;
+    }
+    header .brand-1 p{
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 50px 0px 60px;
+    }
+    header .brand-1 ul li a{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    /* Features Project */
+    .feature{
+        padding: 40px 0px 30px;
+    }
+    .feature h3, .design h3, .some h3{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .feature h2, .design h2, .some h2{
+        font-size: 45px;
+        line-height: 24px;
+    }
+    .feature .row .more h1{
+        font-size: 70px;
+        line-height: 100px;;
+    }
+    .feature .row .more h4{
+        font-size: 20.2958px;
+    }
+    .feature .row .more p{
+        font-size: 15.5305px;
+        line-height: 18px;
+    }
+    .feature .container a,
+    .design .container a{
+    font-size: 18px;
+    line-height: 20px;
+    }
+
+
+    /* Design */
+    .design{
+        padding: 20px 0px 0px;
+    }
+
+    /* Some Recommendation */
+    .some {
+        padding: 30px 0px 0px;
+    }
+    .some .row .col p{
+        width: 20rem;
+        margin: 30px auto 10px;
+        font-size: 17px;
+        line-height: 18px;
+    }
+    .some .row .col h4{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .some .col1 h1{
+        font-size: 48px;
+        line-height: 26px;
+    }
+    .some .col1 h3{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    /* Contact */
+    .contact-down ol li a{
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+
+/* @media(max-width: 1050px){
+
+
+
+} */
+@media(max-width: 990px){ 
+    /* .container{
+        width: 90%;
+    } */
+    header .brand-link a{
+        font-size: 18px;
+    }
+    header .main ,link ul li a{
+        font-size: 15px;
+    }
+    header .brand-1 h2{
+        font-size: 90px;
+        line-height: 110px;
+    }
+    header .main{
+        padding-left: 30px;
+        gap: 10px;
+    }
+    header .image{
+        height: 650px;
+    }
+    header .image img{
+        height: 650px;
+        width: 350px;
+    }
+
+}
+
+
+@media(max-width: 812px){
+    header .main{
+        padding-left: 0px;
+        max-width: 80%;
+        margin: auto;
+        display: block;
+        position: relative;
+        /* overflow-x: hidden; */
+    }
+    .harborger, .textbrigh{
+        display: block;
+    }
+    .textbrigh{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .harborger.active .bar:nth-child(1){
+        transform: translateY(6px) rotate(45deg);
+        transition: all 0.4s ease-in-out;
+    }
+    .harborger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .harborger.active .bar:nth-child(3){
+        width: 25px;
+        transition: all 0.4s ease-in-out;
+        transform: translateY(-6px) rotate(-45deg);
+    }
+    header .main .link{
+        padding: 50px 0px;
+        background-color: white;
+        position: absolute;
+        width: 100%;
+        top: 100px;
+        left: 150%;
+        text-align: center;
+        z-index: 99;
+        transition: all 0.5s ease-in-out;
+    }
+    header .main.active .harborger .bar{
+        background: #fff;
+    }
+    header .main.active .brand .main-brand .link ul li a{
+        color: #321201;
+    }
+    header .main .link.active{
+        left: 0;
+    }
+    header .main .link ul{
+        display: block;
+        text-align: center;
+    }
+    .linkme li::before{
+        display: none;
+    }
+    .linkme li a{
+        transition: all 0.4s ease-in-out;
+    }
+    .linkme li a:hover{
+        text-decoration: underline;
+    }
+
+    header .brand-link a{
+        font-size: 16px;
+    }
+    header nav .link ul.linkme li.link-brand a{
+        font-size: 14px;
+    }
+    header .brand-1 h2{
+        font-size: 64px;
+        line-height: 62px;
+        text-align: center;
+    }
+    header .brand-1 p{
+        font-size: 16px;
+        width: 100%;
+        margin: 30px auto 40px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    header .brand-1{
+        text-align: center;
+        /* margin-top: 20%; */
+    }
+    header .brand-1::after, header .brand-1::before{
+        display: none;
+    }
+    header .brand-1 ul{
+        max-width: 90%;
+        text-align: center;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    header .brand-1 ul li a{
+        font-size: 14px;
+    }
+    header .image, .arrow{
+        display: none;
+        
+    }
+    /* header .main .brand nav{
+        z-index: 88;
+        position: fixed;
+        top: -10px;
+        left: 10%;
+        right: 10%;
+    } */
+    /* header .image img, header .image .icons{
+        display: none;
+    } */
+    .circle{
+        top: 0;
+        right: 0;
+        /* transform: translateY(-50%); */
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Features Project */
+    .feature{
+        padding: 50px 0px;
+    }
+    .feature h3, .design h3, .some h3{
+        font-size: 12px;
+    }
+    .feature h2, .design h2, .some h2{
+        font-size: 28px;
+    }
+    /* .feature .row{
+        align-items: center;
+    } */
+    .feature .row01{
+        margin: 0px;
+        padding: 0;
+    }
+    .feature .row .more h1{
+        line-height: 24px;
+        font-size: 19px;
+        width: 119px;
+    }
+    .feature .row .more h4{
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .feature .row .more p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .feature .container a,
+    .design .container a{
+        font-size: 16px;
+    }
+    /* .feature .container .row{
+        display: block;
+    } */
+    .feature .row .more{
+        width: 100%;
+    }
+    .feature .row .img{
+       padding: 0px 0px;
+    }
+
+    /* Some Recommendation */
+    .some .row .col p{
+        /* width: 100%; */
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .some .row .col h4{
+        font-size: 8px;
+        line-height: 14px;
+    }
+    .some .col1{
+        padding: 40px 0px;
+    }
+    .some .col1 h1{
+        font-size: 20px;
+        line-height: 14px;
+    }
+    .some .col1 h3{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .contact-down ol li a{
+        font-size: 8px;
+        line-height: 12px;
+    }
+}
+
+@media(max-width: 480px){
+    /* Some Recommendation */
+    .some .row .col p{
+        width: 100%;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+}
+
+
+@media(max-width: 310px){
+    .feature h2, .design h2, .some h2{
+        font-size: 20px;
+    }
+
+}
