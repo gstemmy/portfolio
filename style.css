@@ -97,8 +97,8 @@ header nav .link ul.linkme li.link-brand a{
     font-weight: 400;
     line-height: 39px;
     letter-spacing: 0em;
-    width: 81px;
-    height: 40px;
+    /* width: 81px;
+    height: 40px; */
 }
 header .brand-1{
     position: relative;
@@ -192,6 +192,8 @@ header .brand-1 ul{
     gap: 10px;
 }
 header .brand-1 ul li a{
+    display: flex;
+    align-items: center;
     color: #665E59;
     font-size: 24px;
     font-weight: 400;
@@ -394,12 +396,11 @@ header .main.active .brand a{
     transition: all 0.3s ease-in-out;
 }
 .feature .container .row{
-    /* margin: 40px 0px 50px; */
     display: flex;
     gap: 40px;
 }
 
-
+.feature.active .container .row .more h1,
 .feature.active .container .row .more,
 .feature.active .container .row .more p,
 .feature.active .container .row .more h4,
@@ -409,15 +410,10 @@ header .main.active .brand a{
     transition: all 0.3s ease-in-out;
     color: #FAFCFD;
 }
-.feature.active .container .row .more h1{
-    transition: all 0.3s ease-in-out;
-    color: rgba(249, 251, 254, 0.05);
-}
 
 /* Design */
 .design{
     padding: 30px 0px 0px;
-    /* background-color: #321201; */
 }
 .design .img-link{
     margin: 40px 0px 50px;
@@ -432,7 +428,7 @@ header .main.active .brand a{
 .design .container .imags{
     margin: 20px 0px;
     background: #F5EFFB;
-    padding: 40px 100px;
+    padding: 5% 10%;
 }
 .design.active .container h2,
 .design.active .container h3,
@@ -446,7 +442,6 @@ header .main.active .brand a{
 }
 .some .row{
     padding: 20px 0px 40px;
-    /* display: flex; */
 }
 .some .row .col{
     width: 100%;
@@ -512,22 +507,41 @@ header .main.active .brand a{
 .contact-down{
     padding: 20px 10px;
 }
-.contact-down ol{
+/* .contact-down ol{
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-.contact-down ol li a{
+} */
+/* .contact-down ol li a{
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
     letter-spacing: 0.0015em;
     color: #2B3A41;
     transition: all 0.3s ease-in-out;
-}
-.contact-down.active .container li a{
+} */
+/* .contact-down.active .container li a{
     transition: all 0.3s ease-in-out;
     color: #FAFCFD;
+} */
+.contact-down ol{
+    display: flex;
+    justify-content: space-between;
+    gap: 5;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.0015em;
+}
+.contact-down ol li a{
+    color: #2B3A41;
+}
+.contact-down.active ol li a{
+    color: #F7F6F6;
+    transition: all 0.4s ease-in-out;
+}
+.contact-down ol li a i{
+    transform: rotate(120deg);
 }
 
 
