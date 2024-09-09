@@ -251,7 +251,7 @@ header .image .icons .icon-change{
     background: #FAFAF9;
     cursor: pointer;
     font-size: 30px;
-    display: flex;
+    display: none;
     padding: 30px 20px;
     gap: 10px;
     width: 60px;
@@ -593,3 +593,6 @@ header{
     position: relative;
     overflow: hidden;
 }
+/* .icon-change{
+    display: none;
+} */
