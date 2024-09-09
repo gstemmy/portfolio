@@ -119,6 +119,48 @@ harborger.addEventListener("click", () => {
 });
 
 
+// var myIndex = 0;
+// carousel();
+
+// function carousel() {
+//     var i;
+//     var x = document.getElementsByClassName("slide");
+//     var x = document.querySelector('.slide');
+
+//     for( i = 0; i < x.length; i++){
+//         x[i].style.display = "none";
+//     }
+//     myIndex++;
+//     if( myIndex > x.length ){
+//         myIndex = 1
+//     }
+//     x[myIndex-1].style.display = "block";
+//     setTimeout(carousel, 2000);
+// }
+
+
+var myIndexImage = 0;
+imagecarousel();
+
+function imagecarousel() {
+    var i;
+    var x = document.getElementsByClassName("slideImage");
+    // var x = document.querySelector('.slide');
+
+    for( i = 0; i < x.length; i++){
+        x[i].style.display = "none";
+    }
+    myIndexImage++;
+    if( myIndexImage > x.length ){
+        myIndexImage = 1
+    }
+    x[myIndexImage-1].style.display = "block";
+    setTimeout(imagecarousel, 3000);
+}
+
+
+
+
 var myIndex = 0;
 carousel();
 
@@ -135,5 +177,13 @@ function carousel() {
         myIndex = 1
     }
     x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 2000);
+    setTimeout(carousel, 3000);
 }
+
+
+
+// setInterval(() => {
+//     mSlides[currentSlide].classList.remove('active');
+//     currentSlide = (currentSlide + 1) % mSlides.length;
+//     mSlides[currentSlide].classList.add('active');
+// },4000);
