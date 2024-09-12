@@ -166,6 +166,7 @@ header .brand-1 h2{
     font-family: myUltrabold;
     font-weight: 800;
     font-size: 128px;
+    /* font-size: 18px; */
     line-height: 121px;
     transition: all 0.3s ease-in-out;
 }
@@ -211,13 +212,15 @@ header .brand-1 ul li a .bx-arrow-back,
 
 header .image{
     position: relative;
-    height: 700px;
+    height: 800px;
     /* width: 100%; */
 }
 
 header .image img{
-    height: 700px;
-    width: 400px;
+    /* height: 700px; */
+    height: 800px;
+    /* width: 400px; */
+    width: 500px;
     border-radius: 0px 0px 0px 16px;
     transition: all 0.3s ease-in-out;
 }

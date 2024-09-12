@@ -86,6 +86,24 @@
 
 
 } */
+
+
+@media(max-width: 1067px){
+    header .brand-1 h2{
+        font-size: 90px;
+    }
+}
+
+@media(max-width: 1035px){
+    header .image img{
+        /* height: 700px; */
+        height: 750px;
+        /* width: 400px; */
+        width: 450px;
+    }
+
+}
+
 @media(max-width: 990px){ 
     header .brand-link a{
         font-size: 18px;
@@ -102,15 +120,23 @@
         gap: 10px;
     }
     header .image{
-        height: 650px;
+        /* height: 650px; */
+        height: 700px;
     }
     header .image img{
-        height: 650px;
-        width: 350px;
+        /* height: 650px; */
+        /* width: 350px; */
+        height: 700px;
+        /* width: 400px; */
+        width: 400px;
     }
-
+    
 }
-
+@media(max-width: 845px){
+    header .brand-1 h2{
+        font-size: 80px;
+    }
+}
 
 @media(max-width: 812px){
     header .main{
