@@ -346,6 +346,7 @@ header .main.active .brand a{
 }
 .feature .row{
     margin: 20px 0px;
+    justify-content: center;
 }
 .feature .row01{
     margin: 20px 0px 70px;
@@ -599,3 +600,7 @@ header{
 /* .icon-change{
     display: none;
 } */
+.feature .row{
+    margin: 20px 0px;
+    justify-content: center;
+}

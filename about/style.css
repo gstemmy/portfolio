@@ -245,6 +245,22 @@ header nav ul li:nth-child(3) a{
 .core .core1 ul{ 
     color: #000000;
 }
+.work .container .curriculum {
+    text-align: right;
+}
+.work .container  a{
+    font-weight: bold;
+    text-align: right;
+    color: #fff;
+    padding: 5px;
+    background-color: #000000;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+}
+.work .container  a:hover{
+    color: #000000;
+    background-color: #fff;
+}
 
 /* Experience */
 .work h1, .school h1{
